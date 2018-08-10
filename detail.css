@@ -1,0 +1,260 @@
+/*首页头部*/
+#header{background:url("")}
+#header .contWidth{
+    position:relative;
+	width:990px;
+	height:62px;
+	margin:0 auto;
+	z-index:100;
+	background:#f5f5f5;;
+}
+#myShopping{
+    position:absolute;
+    left:608px;
+	top:5px;
+}
+.drop{
+    height:20px;
+}
+.item a{
+    color:#6C6C6C;
+	text-decoration:none;
+}
+.list{
+    background:#FFFFFF;
+	border:1px solid #B1B1B1;
+	border-top:0;
+	overflow:hidden;
+	position:absolute;
+	top:15px;
+	left:0px;
+	width:100px;
+	z-index:1000;
+	display:none;
+}
+.mainNav{
+    position:absolute;
+	top:30px;
+	left:0;
+	width:990px;
+	height:37px;
+	line-height:37px;
+	z-index:100;
+	background-color:#4A4A4A;
+}
+.mainNav .nav{
+    display:inline;
+	float:left;
+	margin-left:25px;
+}
+.mainNav ul li{
+   position:relative;
+   float:left;
+   display:inline;
+   margin-right:14px;
+   z-index:100;
+}
+.mainNav ul li a{
+    display:block;
+	padding:0 8px;
+	font-weight:700;
+	color:#fff;
+	font-size:14px;
+}
+
+.jnNav{
+    background:#FFFFFF;
+	border:1px solid #B1B1B1;
+	border-top:0;
+	overflow:hidden;
+	position:absolute;
+	top:37px;
+	left:0;
+	width:474px;
+	z-index:1000;
+	display:none;
+}
+.jnNav .subitem{
+    float:left;
+	height:auto !important;
+	min-height:100px;
+	padding:10px 12px;
+	width:450px;
+}
+.jnNav .subitem dl{
+    border-top:1px solid #C4C4C4;
+	overflow:hidden;
+	padding:8px 0;
+	float:left;
+}
+.jnNav .subitem dt{
+    float:left;
+	font-weight:bold;
+	line-height:16px;
+	padding:4px 3px;
+	text-align:center;
+	width:76px;
+}
+.jnNav .subitem dd{
+    float:left;
+	overflow:hidden;
+	padding:0;
+	width:364px;
+}
+/*首页主体部分*/
+
+#content{
+    clear:left;
+	margin: 0 auto;
+	position:relative;
+	width:990px;
+}
+.janeshop{
+    height:560px;
+	overflow:hidden;
+	padding:10px 0;
+}
+#jnCatalog{
+    float:left;
+	width:187px;
+	height:560px;
+	margin: 0 11px 0 0;
+	overflow:hidden
+}
+#jnCatalog h2{
+    height:30px;
+	line-height:30px;
+	color:#fff;
+	font-size:12px;
+	text-indent:13px;
+	background-color:#6E6E6E;
+}
+.jnCatainfo{
+    width:165px;
+    border:1px solid #6E6E6E;
+	border-style: none solid solid;
+	border-width:0 1px 1px ;
+	height:524px;
+	overflow:hidden;
+	padding:5px 10px 0;
+	width:165px;
+}
+.jnCatainfo h3{
+    border-bottom:1px solid #EEEEEE;
+	width:164px;
+	height:24px;
+	line-height:24px;
+}
+.jnCatainfo ul{
+    float:left;
+	padding:0 2px 8px;
+}
+.jnCatainfo li{
+    color:#AEADAE;
+	float:left;
+	width:79px;
+	height:24px;
+	line-height:24px;
+	overflow:hidden;
+	position:relative;
+}
+.jnCatainfo li a{
+    color:#444444;
+}
+.jnCatainfo li a.promoted{
+    color:orange;
+}
+
+#jnProitem{
+   float:left;
+   display:inline;
+   width:312px;
+   height:560px;
+}
+
+#jnProitem .jqzoomWrap{
+   border:1px solid #BBBBBB;
+   cursor:pointer;
+   float:left;
+   padding:0;
+   position:relative;
+}
+#jnProitem span{
+    width:320px;
+    display:block;
+    padding-bottom:10px;
+    padding-top:10px;
+    text-align:center;
+    clear:both;
+}
+#jnProitem ul.imgList{
+    height:80px;
+	clear:both;
+}
+#jnProitem ul.imgList li{
+    float:left;
+	margin-right:10px;
+}
+#jnProitem ul.imgList li img{
+    width:60px;
+	height:60px;
+	padding:1px;
+	background-color:#EEE;
+	cursor:pointer;
+}
+#jnProitem ul.imgList li img:hover{
+    padding:1px;
+	background:#999;	
+}
+.tab{
+    width:310px;
+	height:230px;
+    clear:both;
+	float:left;
+	overflow:hidden;
+}
+.tab .tab_menu{
+    clear:both;
+}
+.tab .tab_menu li{
+    float:left;
+	text-align:center;
+	cursor:pointer;
+	list-style:none;
+	padding:1px 6px;
+	margin-right:4px;
+	background:#F1F1F1;
+	border:1px solid #898989;
+	border-bottom:none;
+}
+.tab .tab_menu li:hover{
+    background-color:#DFDFDF;
+}
+.tab .tab_menu li.selected{
+    color:#FFF;
+	background:#6D84B4;
+}
+.tab .tab_box{
+   clear:both;
+   border:1px solid #898989;
+}
+.tab .hide{
+   display:none;
+}
+
+#jnDetails{
+   float:left;
+   display:inline;
+   overflow:hidden;
+   width:468px;
+}
+#add{
+   color:#FFF;
+   background:#F44;
+   width:70px;
+   height:30px;
+   line-height:30px;
+   text-align:center;
+   border-radius:5px;
+   border:1px solid #F44;
+}
